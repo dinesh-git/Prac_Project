@@ -82,7 +82,8 @@ nav ul li
   margin-top:25px;
 }
 
-nav ul li a{
+nav ul li a
+{
   text-decoration: none;
   font-weight: bold;
   color: white;
@@ -92,7 +93,18 @@ nav ul li a{
 nav ul li a:hover
 {
   color: pink;
+  background-color: #4682B4;
+  padding: 7px 35px 7px 35px;
+  border-radius: 8px;
 }
+
+nav ul li a:active
+{
+  background-color: #4682B4;
+  padding: 7px;
+}
+
+nav ul li a:hover:not(active)
 
  #section-1
 {
